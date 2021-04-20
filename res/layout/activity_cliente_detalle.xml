@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    android:orientation="vertical"
+    tools:context=".ClienteDetalleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--        general-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<!--            dni-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DNI"/>
+            <EditText
+                android:id="@+id/et_DNI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su DNI"
+                android:layout_marginBottom="10dp"/>
+
+<!--            nombres-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres"/>
+            <EditText
+                android:id="@+id/et_Nombres"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese sus nombres"
+                android:layout_marginBottom="10dp"/>
+
+            <!--            Apellidos-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombres"/>
+            <EditText
+                android:id="@+id/et_Apellidos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese sus apellidos"
+                android:layout_marginBottom="10dp"/>
+
+            <!--            Direccion-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Direccion"/>
+            <EditText
+                android:id="@+id/et_Direccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su Direccion"
+                android:layout_marginBottom="10dp"/>
+
+            <!--            telefono-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefono"/>
+            <EditText
+                android:id="@+id/et_Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingrese su telefono"
+                android:layout_marginBottom="10dp"/>
+
+            <Button
+                android:id="@+id/btn_GuardarCambios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Guardar Cambios"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

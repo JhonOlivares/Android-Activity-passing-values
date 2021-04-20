@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_EditarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editar Cliente"/>
+    <Button
+        android:id="@+id/btn_cuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Aperturar / Cerrar) Cuentas)"/>
+    <Button
+        android:id="@+id/btn_DepositoRetiro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Depósitos / Retiros"/>
+    <Button
+        android:id="@+id/btn_Transferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transferencias"/>
+
+</LinearLayout>

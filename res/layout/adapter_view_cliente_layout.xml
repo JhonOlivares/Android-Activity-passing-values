@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="15dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_labeldni"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DNI:"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tv_DNI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="87546546"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_NombreApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jhon Olivares Tolentino"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_accion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acciones"/>
+
+</LinearLayout>
